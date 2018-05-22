@@ -3,7 +3,7 @@ A sequential vs a parallel implementation of Borůvka's MST algorithm
 <br/>
 <br/>
 
-####1. Description of the algorithm
+#### 1. Description of the algorithm
 
 Borůvka's algorithm is based on merging of disjoint components. Given a connected, undirected graph G with N vertices and M weighted edges, a minimum spanning tree can be found.
 In the beginning of the procedure each vertex is considered as a separate component. In each step the algorithm chooses the cheapest outgoing edge for each component, and connects (merges) the newly derived component. The fact that for each component, we only consider the outgoing edges (edges that have one endpoint in one component, and the other in some other component) guarantees that no cycle will occur while building the spanning tree.
@@ -17,7 +17,7 @@ Contrary to the other well-known algorithms like Kruskal’s algorithm where edg
 <br/>
 <br/>
 
-####2. How to build and execute the program(s). 
+#### 2. How to build and execute the program(s). 
 
 Requirments: g++ compiler, pthreads.h.
 
